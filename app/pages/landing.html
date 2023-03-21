@@ -1,19 +1,405 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <title>Landing</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/landing.css">
+    <link rel="stylesheet" type="text/css" href="../exterrnal-libs/layout/index.css">
 </head>
+
 <body>
-    <div class="wt-container">
-        <div class="wt-row wt-row_size_m wt-row_justify_center wt-offset-top-96">
-            <div class="wt-col-inline text-1 text-1_theme_dark">
-                    Landing page
+    <header class="wt-layout wt-layout__header">
+        <nav class="navbar">
+            <div class="wt-container">
+                <div class="navbar_content">
+                    <a href="/" class="navbar_logo">
+                        ToolBox
+                    </a>
+                    <div class="wt-row navbar_menu" style="align-items: center;">
+                        <ul class="navbar_list">
+                            <li><a href="#" class="navbar_item">Overview</a></li>
+                            <li><a href="#" class="navbar_item">Toolbox App</a></li>
+                        </ul>
+                        <a href="#" class="btn navbar_btn">Buy Now</a>
+                    </div>
+                    <button class="menu_btn">
+                        <img src="../static/assets/img/menu.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="hero">
+        <div class="wt-container">
+            <div class="hero_content">
+                <div class="hero_img_blog">
+                    <img src="../static/assets/img/img-1.png" alt="" class="hero_img">
+                </div>
+                <div class="hero_item">
+                    <h1 class="hero_title">All Products Pack</h1>
+                    <h5 class="hero_subtitle">The complete full-stack developer toolkit</h5>
+                    <a href="#" class="btn hero_btn">
+                        I want it All
+                    </a>
+                    <p class="hero_text">
+                        An upgrade and switch option available
+                    </p>
+                </div>
             </div>
         </div>
     </div>
+    <section class="ides">
+        <div class="wt-container">
+            <div class="wt-row ides_block">
+                <div class="ides_list">
+                    <div class="section_header">
+                        <h3 class="section_title">10 IDEs</h3>
+                    </div>
+                    <img src="../static/assets/img/idea.svg" alt="" class="ides_list_item">
+                    <img src="../static/assets/img/web-storm.svg" alt="" class="ides_list_item">
+                    <img src="../static/assets/img/re-sharper.svg" alt="" class="ides_list_item">
+                    <img src="../static/assets/img/rider.svg" alt="" class="ides_list_item">
+                    <img src="../static/assets/img/app-code.svg" alt="" class="ides_list_item">
+                    <img src="../static/assets/img/c-lion.svg" alt="" class="ides_list_item">
+                    <img src="../static/assets/img/ruby-mine.svg" alt="" class="ides_list_item">
+                    <img src="../static/assets/img/data-grip.svg" alt="" class="ides_list_item">
+                    <img src="../static/assets/img/php-storm.svg" alt="" class="ides_list_item">
+                    <img src="../static/assets/img/py-charm.svg" alt="" class="ides_list_item">
+                </div>
+                <div class="ides_content">
+                    <p class="ides_text1">
+                        Get access to all JetBrains desktop tools including 10 IDEs, 2 extensions and 3 profilers
+                    </p>
+                    <div class="ides_item wt-row">
+                        <a href="#" class="ides_content_item">
+                            <h6 class="ides_item_title">IntelliJ IDEA Ultimate</h6>
+                            <div class="wt-row" style="gap: 12px">
+                                <div class="ides_item_chip">Kotlin</div>
+                                <div class="ides_item_chip">Java</div>
+                            </div>
+                        </a>
+                        <a href="#" class="ides_content_item">
+                            <h6 class="ides_item_title">WebStorm</h6>
+                            <div class="wt-row" style="gap: 12px">
+                                <div class="ides_item_chip">Mysql</div>
+                            </div>
+                        </a>
+                        <a href="#" class="ides_content_item">
+                            <h6 class="ides_item_title">Rider</h6>
+                            <div class="wt-row" style="gap: 12px">
+                                <div class="ides_item_chip">C#</div>
+                                <div class="ides_item_chip">.NET</div>
+                            </div>
+                        </a>
+                        <a href="#" class="ides_content_item">
+                            <h6 class="ides_item_title">RubyMine</h6>
+                            <div class="wt-row" style="gap: 12px">
+                                <div class="ides_item_chip">Ruby</div>
+                            </div>
+                        </a>
+                        <a href="#" class="ides_content_item">
+                            <h6 class="ides_item_title">ReSharper Ultimate</h6>
+                            <div class="wt-row" style="gap: 12px">
+                                <div class="ides_item_chip">C++</div>
+                            </div>
+                        </a>
+                        <a href="#" class="ides_content_item">
+                            <h6 class="ides_item_title">AppCode</h6>
+                            <div class="wt-row" style="gap: 12px">
+                                <div class="ides_item_chip">Mysql</div>
+                                <div class="ides_item_chip">Database</div>
+                            </div>
+                        </a>
+                        <a href="#" class="ides_content_item">
+                            <h6 class="ides_item_title">DataGrip</h6>
+                            <div class="wt-row" style="gap: 12px">
+                                <div class="ides_item_chip">C</div>
+                            </div>
+                        </a>
+                        <a href="#" class="ides_content_item">
+                            <h6 class="ides_item_title">CLion</h6>
+                            <div class="wt-row" style="gap: 12px">
+                                <div class="ides_item_chip">Ruby</div>
+                            </div>
+                        </a>
+                        <a href="#" class="ides_content_item">
+                            <h6 class="ides_item_title">PhpStorm</h6>
+                            <div class="wt-row" style="gap: 12px">
+                                <div class="ides_item_chip">Mysql</div>
+                                <div class="ides_item_chip">Database</div>
+                            </div>
+                        </a>
+                        <a href="#" class="ides_content_item">
+                            <h6 class="ides_item_title">PyCharm</h6>
+                            <div class="wt-row" style="gap: 12px">
+                                <div class="ides_item_chip">Mysql</div>
+                                <div class="ides_item_chip">Database</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="extensions">
+        <div class="wt-container">
+            <div class="wt-row">
+                <div class="section_header" style="margin-bottom: 50px;">
+                    <h3 class="section_title">2 Extentions & 3 Profilers</h3>
+                </div>
+                <div class="ides_list">
+                    <img src="../static/assets/img/re-sharper.svg" alt="" class="ides_list_item">
+                    <img src="../static/assets/img/re-sharper-c.svg" alt="" class="ides_list_item">
+                    <img src="../static/assets/img/dot-cover.svg" alt="" class="ides_list_item">
+                    <img src="../static/assets/img/dot-memory.svg" alt="" class="ides_list_item">
+                    <img src="../static/assets/img/dot-trace.svg" alt="" class="ides_list_item">
+                </div>
+                <div class="ides_content">
+                    <div class="ides_item wt-row">
+                        <a href="#" class="ides_content_item">
+                            <h6 class="ides_item_title">ReSharper</h6>
+                            <div class="wt-row" style="gap: 12px">
+                                <div class="ides_item_chip">Mysql</div>
+                                <div class="ides_item_chip">Database</div>
+                            </div>
+                        </a>
+                        <a href="#" class="ides_content_item">
+                            <h6 class="ides_item_title">ReSharper C++</h6>
+                            <div class="wt-row" style="gap: 12px">
+                                <div class="ides_item_chip">C++</div>
+                            </div>
+                        </a>
+                        <a href="#" class="ides_content_item">
+                            <h6 class="ides_item_title">dotTrace</h6>
+                            <div class="wt-row" style="gap: 12px">
+                                <div class="ides_item_chip">Ruby</div>
+                            </div>
+                        </a>
+                        <a href="#" class="ides_content_item">
+                            <h6 class="ides_item_title">dotCover</h6>
+                            <div class="wt-row" style="gap: 12px">
+                                <div class="ides_item_chip">Mysql</div>
+                            </div>
+                        </a>
+                        <a href="#" class="ides_content_item">
+                            <h6 class="ides_item_title">dotMemory</h6>
+                            <div class="wt-row" style="gap: 12px">
+                                <div class="ides_item_chip">C</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="wt-container">
+            <div class="about_block">
+                <div class="about_img w-50">
+                    <img src="../static/assets/img/img-4.png" alt="" class="w-auto">
+                </div>
+                <div class="about_content w-50">
+                    <div class="about_item">
+                        <img src="../static/assets/img/discount.png" alt="">
+                        <h5 class="about_item_title">Great value</h5>
+                        <p class="about_item_text">Get 10 IDEs for the price of 2.</p>
+                    </div>
+                    <div class="about_item">
+                        <img src="../static/assets/img/offer.png" alt="">
+                        <h5 class="about_item_title">Flexibility</h5>
+                        <p class="about_item_text">
+                            Use different tools for different projects on multiple machines as and when you need
+                            them.
+                            Easily switch between the tools under the All Products Pack license.
+                        </p>
+                    </div>
+                    <div class="about_item">
+                        <img src="../static/assets/img/use-account.png" alt="">
+                        <h5 class="about_item_title">Simple license management</h5>
+                        <p class="about_item_text">
+                            One unique license includes all the JetBrains desktop tools. Get unlimited access to all
+                            of
+                            them.
+                        </p>
+                    </div>
+                    <div class="about_item">
+                        <img src="../static/assets/img/learn.png" alt="">
+                        <h5 class="about_item_title">Further your skills</h5>
+                        <p class="about_item_text">
+                            Advance your programming skills with the best professional tools.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="toolbox_app">
+        <div class="wt-container">
+            <div class="toolbox_block">
+                <div class="toolbox_img">
+                    <img src="../static/assets/img/tb-screenshot.png" alt="" class="w-auto">
+                </div>
+                <div class="toolbox_content">
+                    <h3 class="toolbox_title">Maintain your tools with the Toolbox App</h3>
+                    <p class="toolbox_text">Simple installations, updates, and more</p>
+                    <a href="#" class="toolbox_link">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="partners">
+        <div class="wt-container">
+            <div class="partners_content">
+                <h2 class="partners_title">Trusted by 320,083 businesses worldwide</h2>
+                <div class="partners_list">
+                    <img src="../static/assets/img/google-2015-logo.svg" alt="">
+                    <img src="../static/assets/img/hphewlett-packardlogo.svg" alt="">
+                    <img src="../static/assets/img/samsung-logo.svg" alt="">
+                    <img src="../static/assets/img/salesforce-2.svg" alt="">
+                    <img src="../static/assets/img/expedia.svg" alt="">
+                    <img src="../static/assets/img/twitter-logo-blue.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faq">
+        <div class="wt-container">
+            <h3 class="section_title" style="margin-bottom: 24px;">FAQ</h3>
+            <div class="wt-row faq_block">
+                <div class="faq_item w-50">
+                    <h5 class="faq_item_title">
+                        Can I upgrade my existing IntelliJ IDEA, PyCharm, WebStorm or ReSharper Ultimate or any other
+                        JetBrains IDE license to
+                        the All Products Pack?
+                    </h5>
+                    <p class="faq_item_text">
+                        Yes, your existing licenses to any JetBrains desktop product make you eligible to purchase new
+                        All Products Pack subscriptions with an additional discount.
+                    </p>
+                </div>
+                <div class="faq_item w-50">
+                    <h5 class="faq_item_title">
+                        How to upgrade to the All Products Pack?
+                    </h5>
+                    <p class="faq_item_text">
+                        You can upgrade your current subscription to All Products Pack license from your JetBrains
+                        account using the “Upgrade”
+                        link, which is displayed next to all the licenses that can be upgraded. You can click this link
+                        to go to JetBrains
+                        eStore and complete the order. If you have any questions, please contact Sales.
+                    </p>
+                </div>
+            </div>
+            <div class="wt-row" style="align-items: center;">
+                <div class="faq_img w-50">
+                    <img src="../static/assets/img/img-2.png" alt="">
+                </div>
+                <div class="faq_tools w-50">
+                    <h4 class="faq_tools_title">Enhance your productivity and speed up coding with JetBrains tools!</h4>
+                    <a href="#" class="faq_tools_link">
+                        <img src="../static/assets/img/download.svg" alt="">
+                        Download the All Products Pack infographics
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="wt-container">
+            <div class="wt-row">
+                <div class="contact_item w-50">
+                    <h4 class="section_title">Stay updated</h4>
+                    <form action="#">
+                        <fieldset>
+                            <input type="email" name="email" class="contact_form_input" placeholder="Your email">
+                        </fieldset>
+                        <fieldset>
+                            <input type="checkbox" name="privacy" class="contact_form_checkbox" id="privacy">
+                            <label for="privacy" class="contact_form_label">
+                                By submitting this form I agree to the JetBrains Privacy Policy?
+                            </label>
+                        </fieldset>
+                        <button type="submit" class="btn contact_btn" style="margin-top: 24px;">Subscribe</button>
+                    </form>
+                </div>
+                <div class="contact_item w-50">
+                    <h6 class="contact_form_title2">Follow us</h6>
+                    <div>
+                        <a href="#" class="contact_social">
+                            <img src="../static/assets/img/twitter.svg" alt="">
+                            @AllProductsPack on Twitter
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="contact_social">
+                            <img src="../static/assets/img/book.svg" alt="">
+                            JetBrains Blog
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="contact_social">
+                            <img src="../static/assets/img/bug.svg" alt="">
+                            Bug and Issue Tracker
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="wt-container">
+            <div class="footer_content">
+                <img src="../static/assets/img/jb.svg" alt="" class="jetbrains">
+                <ul class="footer_list">
+                    <li class="footer_item" style="margin-bottom: 16px;"><strong>About JetBrains</strong></li>
+                    <li class="footer_item"><a href="#">Company</a></li>
+                    <li class="footer_item"><a href="#">Contacts</a></li>
+                    <li class="footer_item"><a href="#">Press & Logos</a></li>
+                    <li class="footer_item"><a href="#">Careers</a></li>
+                </ul>
+                <div class="footer_social">
+                    <h6 class="footer_title"><strong>Follow JetBrains</strong></h6>
+                    <div class="wt-row">
+                        <a href="#" class="footer_social_item">
+                            <img src="../static/assets/img/facebook.svg" alt="">
+                        </a>
+                        <a href="#" class="footer_social_item">
+                            <img src="../static/assets/img/twitter-white.svg" alt="">
+                        </a>
+                        <a href="#" class="footer_social_item">
+                            <img src="../static/assets/img/linkedin.svg" alt="">
+                        </a>
+                        <a href="#" class="footer_social_item">
+                            <img src="../static/assets/img/youtube.svg" alt="">
+                        </a>
+                        <a href="#" class="footer_social_item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                                <path fill="#fff" fill-rule="evenodd"
+                                    d="M10 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm6.792 1H20v11h-3.208a7.235 7.235 0 0 0-6.75 4 7.236 7.236 0 0 0-6.75-4H0V5h3.292a7.48 7.48 0 0 1 6.75 4.285A7.48 7.48 0 0 1 16.792 5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_texts">
+                <p>
+                    © 2000—2017 JetBrains s.r.o. All rights reserved.
+                </p>
+                <p>Developed with drive and IntelliJ IDEA</p>
+                <p>Privacy & Security l Terms of Use</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.menu_btn').addEventListener('click', function () {
+            document.querySelector('.navbar_menu').classList.toggle('active');
+        })
+    </script>
 </body>
+
 </html>

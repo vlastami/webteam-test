@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+    <defs>
+        <linearGradient id="a" x1="23.731%" x2="86.12%" y1="1.73%" y2="99.556%">
+            <stop offset="22.043%" stop-color="#C40B55"/>
+            <stop offset="68.28%" stop-color="#E343E6"/>
+            <stop offset="92.473%" stop-color="#F59252"/>
+        </linearGradient>
+        <linearGradient id="b" x1="102.704%" x2="-28.008%" y1="104.703%" y2="25.931%">
+            <stop offset="11.29%" stop-color="#FFBD00"/>
+            <stop offset="58.602%" stop-color="#E343E6"/>
+            <stop offset="81.72%" stop-color="#EC841B"/>
+            <stop offset="93.548%" stop-color="#FFBD00"/>
+        </linearGradient>
+        <linearGradient id="c" x1="9.157%" x2="99.918%" y1="-4.101%" y2="108.705%">
+            <stop offset="12.903%" stop-color="#FFBD00"/>
+            <stop offset="63.978%" stop-color="#E343E6"/>
+            <stop offset="90.86%" stop-color="#C40B55"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="nonzero">
+        <path fill="url(#a)" d="M26.443 19.934l18.134 28.154-29.421 43.755L0 30.264z" transform="translate(1 2)"/>
+        <path fill="url(#b)" d="M24.79 20.58L27.572 0l39.616 44.126L55.69 55.445l8.886 36.398h-49.42z" transform="translate(1 2)"/>
+        <path fill="url(#c)" d="M46.261 61.758h45.582L76.606 0H27.572z" transform="translate(1 2)"/>
+        <path fill="#000" d="M18.575 19.547h56.693V76.24H18.575z"/>
+        <path fill="#FFF" d="M23.876 26.917h10.748c2.978 0 5.262.795 6.852 2.384a7.267 7.267 0 0 1 2.015 5.374v.068a7.37 7.37 0 0 1-1.395 4.651 8.072 8.072 0 0 1-3.644 2.637l5.743 8.396h-6.044l-4.866-7.22H29.02l.029 7.22h-5.173v-23.51zm10.412 11.419a4.295 4.295 0 0 0 2.939-.907 3.071 3.071 0 0 0 1.025-2.418v-.067a3.001 3.001 0 0 0-1.077-2.52 4.751 4.751 0 0 0-2.988-.838H29.05v6.75h5.239zM23.788 65.61h21.26v3.543h-21.26zM58.342 34.078h-5.285v-4.694h5.285v-5.25h4.83v5.25h5.285v4.694h-5.284v5.25h-4.831zM49.74 47.366h-5.285V42.67h5.284v-5.25h4.831v5.25h5.285v4.695H54.57v5.25h-4.83z"/>
+    </g>
+</svg>
